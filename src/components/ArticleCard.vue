@@ -1,6 +1,6 @@
 <template>
   <div
-    class="relative w-2/3 h-48 flex flex-col gap-4 px-6 py-4 bg-purple-100 rounded-md shadow-md"
+    class="relative w-full h-60 flex flex-col gap-4 px-6 py-4 bg-purple-100 rounded-md shadow-md"
   >
     <p class="font-bold mt-2">文章標題</p>
     <p class="text-gray-500">
