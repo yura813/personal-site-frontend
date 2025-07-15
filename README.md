@@ -1,29 +1,23 @@
-# .
+# My Personal Website
 
-This template should help get you started developing with Vue 3 in Vite.
+這是我的個人網站專案，包含首頁、部落格文章、作品集展示與個人簡介等內容。
 
-## Recommended IDE Setup
+此專案是個人練習的小專案，未來會開發我自己可用的後台，
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+我會在上面發佈文章，紀錄我的學習歷程。
 
-## Customize configuration
+## 網站功能
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+- 作品集頁面
+- 部落格文章頁面
+- 個人簡介頁面
+- 標籤分類與文章列表分頁功能
+- 後台管理：上傳、編輯文章
+- 上傳作品集
 
-## Project Setup
+## 使用技術
 
-```sh
-npm install
-```
+- **框架**：Vue 3
+- **樣式框架**：TailwindCSS
 
-### Compile and Hot-Reload for Development
 
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
