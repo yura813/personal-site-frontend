@@ -10,7 +10,7 @@
       ad quibusdam? Error?
     </p>
     <div>
-      <p class="absolute right-6 bottom-4">發布日期: <span>2022/01/01</span></p>
+      <p class="absolute right-6 bottom-4">發布日期：<span>2022-01-01</span></p>
     </div>
   </div>
 </template>

@@ -1,6 +1,7 @@
 @import "tailwindcss";
 @theme {
   --color-primary: oklch(56.3% 0.04 193.87);
+  --color-hover: oklch(67.73% 0.047 192.51);
   --color-white-soft: oklch(97.02% 0 0);
   --color-purple-100: oklch(95.91% 0.015 273.85);
   --font-sans: "EB Garamond", serif;
