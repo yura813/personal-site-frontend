@@ -14,9 +14,9 @@ import ArticleCard from "@/components/ArticleCard.vue";
   <div class="relative top-20">
     <div class="flex gap-12 px-40 py-12">
       <section class="w-3/4 min-w-xs flex flex-col gap-6 relative">
-        <ArticleCard />
-        <ArticleCard />
-        <ArticleCard />
+        <ArticleCard class="cursor-pointer hover:shadow-lg" />
+        <ArticleCard class="cursor-pointer hover:shadow-lg" />
+        <ArticleCard class="cursor-pointer hover:shadow-lg" />
       </section>
       <aside class="flex flex-col gap-6">
         <div

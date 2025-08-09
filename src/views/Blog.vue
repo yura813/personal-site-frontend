@@ -14,7 +14,7 @@ import ArticleCard from "@/components/ArticleCard.vue";
       <div>
         <input
           type="text"
-          placeholder="搜尋"
+          placeholder="search"
           class="px-2 py-1 outline rounded outline-gray-300"
         />
       </div>

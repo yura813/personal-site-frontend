@@ -1,5 +1,8 @@
 <script setup>
+import { ref } from "vue";
 import ArticleCard from "@/components/ArticleCard.vue";
+import { Heart } from "lucide-vue-next";
+const liked = ref(false);
 </script>
 
 <template>
@@ -9,12 +12,14 @@ import ArticleCard from "@/components/ArticleCard.vue";
     <div class="flex justify-between px-2 py-2 text-sm">
       <div>
         <div class="flex items-end gap-2">
-          <font-awesome-icon :icon="['fat', 'heart']" />
+          <button class="cursor-pointer" @click="liked = !liked">
+            <Heart :fill="liked ? '#F77E7E' : 'none'" color="#F77E7E" />
+          </button>
           <p>12</p>
         </div>
       </div>
       <div>
-        <p>上次更新時間：<span>2022-01-01</span></p>
+        <p>Last Updated：<span>2022-01-01</span></p>
       </div>
     </div>
 
@@ -104,14 +109,16 @@ import ArticleCard from "@/components/ArticleCard.vue";
         </div>
       </div>
       <div class="flex items-end gap-2">
-        <button>愛心</button>
+        <button class="cursor-pointer" @click="liked = !liked">
+          <Heart :fill="liked ? '#F77E7E' : 'none'" color="#F77E7E" />
+        </button>
         <p>12</p>
       </div>
     </div>
     <div class="w-full border-b-1 border-gray-300"></div>
 
-    <div class="mt-10">
-      <h2 class="text-lg font-bold py-4">其他文章</h2>
+    <div class="mt-8">
+      <h2 class="text-2xl font-bold py-8">See More</h2>
       <div class="px-4 flex flex-col gap-6">
         <ArticleCard />
         <ArticleCard />

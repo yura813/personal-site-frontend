@@ -17,18 +17,19 @@ const router = useRouter();
         <div
           class="cursor-pointer h-20 px-6 flex items-center hover:bg-primary hover:text-white-soft transition-all duration-300"
         >
-          作品集
+          Portfolio
         </div>
         <div
           class="cursor-pointer h-20 px-6 flex items-center hover:bg-primary hover:text-white-soft transition-all duration-300"
           @click="router.push('/blog')"
         >
-          部落格
+          Blog
         </div>
         <div
           class="cursor-pointer h-20 px-6 flex items-center hover:bg-primary hover:text-white-soft transition-all duration-300"
+          @click="router.push('/about')"
         >
-          關於我
+          About
         </div>
       </div>
     </div>
