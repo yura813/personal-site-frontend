@@ -1,9 +1,9 @@
 <script setup></script>
 
 <template>
-  <div>
+  <div class="bg-purple-100 min-h-screen pb-20">
     <div
-      class="relative flex items-center justify-between top-20 px-40 h-120 font-sans bg-primary tracking-wider"
+      class="relative flex items-center justify-between top-20 px-50 h-120 font-sans bg-primary tracking-wider"
     >
       <div class="flex flex-col gap-20 text-white-soft">
         <div class="flex flex-col gap-4 text-2xl font-bold">
@@ -33,7 +33,7 @@
         </div>
       </div>
       <div class="w-64">
-        <img class="w-full" src="" alt="這是一張圖片" />
+        <img class="w-full rounded-2xl outline-double outline-white-soft outline-2" src="../assets/myphoto.JPG" alt="這是一張圖片" />
       </div>
     </div>
 
@@ -41,7 +41,7 @@
       <div class="relative px-40 tracking-wide">
         <div>
           <p class="font-bold text-2xl mb-6 text-primary">About Me</p>
-          <div class="w-full flex justify-between">
+          <div class="w-full flex justify-between text-lg">
             <p>
               Hi, I’m Yura — a listener, problem-solver, and curious thinker.
               <br />
@@ -57,7 +57,7 @@
       <div class="relative px-40 tracking-wide">
         <div>
           <p class="font-bold text-2xl mb-6 text-primary">Highlights</p>
-          <div class="flex flex-col gap-4">
+          <div class="flex flex-col gap-4 text-lg">
             <p>
               ● Graduated from a four-month Front-End Bootcamp at the Commerce
               Development Research Institute, building real-world projects.
@@ -67,7 +67,7 @@
               resolving collaboration challenges.
             </p>
             <p>
-              ● Former Product Manager at DSI Group, overseeing three SaaS
+              ● Former Product Manager at DSI Group, overseeing three
               products and collaborating with engineers on UI, features, and
               database structures.
             </p>
@@ -78,9 +78,18 @@
         <div>
           <p class="font-bold text-2xl mb-6 text-primary">Education</p>
           <div class="w-full flex justify-between">
-            <p>National Taiwan University</p>
-            <span>2025.03 - 2025.07</span>
-            <p></p>
+            <p class="font-bold text-lg">National Taiwan University<span class="font-normal"> - Department of Psychology</span></p>
+            <span>2021.09 - 2024.06</span>
+          </div>
+        </div>
+      </div>
+      <div class="relative px-40 tracking-wide">
+        <div>
+          <p class="font-bold text-2xl mb-6 text-primary">Language</p>
+          <div class="w-full flex flex-col gap-2 text-lg">
+            <p class="font-bold text-lg">English<span class="font-normal"> - Proficient</span></p>
+            <p class="font-bold text-lg">Japanese<span class="font-normal"> - Intermediate</span></p>
+            <p class="font-bold text-lg">Mandarin<span class="font-normal"> - Native</span></p>
           </div>
         </div>
       </div>

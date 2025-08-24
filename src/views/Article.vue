@@ -6,7 +6,7 @@ const liked = ref(false);
 </script>
 
 <template>
-  <div class="relative top-20 px-50 py-20">
+  <!-- <div class="relative top-20 px-50 py-20">
     <h1 class="text-3xl px-2 py-2">文章標題</h1>
     <div class="w-full border-b-1 border-gray-300"></div>
     <div class="flex justify-between px-2 py-2 text-sm">
@@ -125,5 +125,5 @@ const liked = ref(false);
         <ArticleCard />
       </div>
     </div>
-  </div>
+  </div> -->
 </template>
