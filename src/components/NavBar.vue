@@ -20,7 +20,7 @@ const navItems = [
   >
     <div
       class="text-2xl font-bold text-white-soft cursor-pointer"
-      @click="router.push('/')"
+      @click="goTo('/')"
     >
       Yura
     </div>
